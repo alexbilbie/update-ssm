@@ -10,7 +10,7 @@ import (
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Println("Expected two arguments, the first is the SSM key, the secon dis the new value")
+		fmt.Println("Expected two arguments, the first is the SSM key, the second is the new value")
 		os.Exit(1)
 	}
 
