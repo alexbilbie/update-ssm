@@ -7,3 +7,9 @@ Usage:
 ```
 $ update-ssm param-name param-value
 ```
+
+Installation:
+
+```
+$ go get -u -v github.com/alexbilbie/update-ssm
+```
