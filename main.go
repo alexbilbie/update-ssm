@@ -28,7 +28,7 @@ func main() {
 	})
 
 	if err != nil {
-		fmt.Printf("SSM PutParamter error: %s\n", err.Error())
+		fmt.Printf("SSM PutParameter error: %s\n", err.Error())
 		os.Exit(1)
 	}
 
